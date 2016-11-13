@@ -19,10 +19,10 @@ clone this project.
 $ git clone https://github.com/ta2gch/plog
 ```
 
-Modify your `.plogrc`
+Modify your `plog.ini`
 
 ```
-; .plogrc
+; plog.ini
 
 [general]
 title  = "john's blog"
@@ -46,7 +46,7 @@ A title of article is h1 (`#` or `=====`) and title of section is h2.
 You add a webhook(`https://example.com/plog.php/webhook?secret=your_secret_key`)
 to Github Webhooks or Bitbucket Webhooks.
 
-`your_secret_key` is defined in `.plogrc`.
+`your_secret_key` is defined in `plog.ini`.
 
 ## License
 MIT License (see LICENSE file in this repository)

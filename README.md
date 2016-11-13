@@ -4,7 +4,7 @@ Simple markdown based blog engine.
 
 ## Features
 - Markdown syntax (Parsedown)
-- Sync articles git repository with the webhook API
+- Sync articles with a git repository (webhook API)
 - Bootswatch themes
 - Smart URL (`example.com/plog.php/1970/01/01/sample`)
 - Articles listing (`example.com/plog.php/1970/` shows all articles at 1970's)

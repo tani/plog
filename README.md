@@ -37,6 +37,11 @@ secret = "your_secret_key"
 commands[] = "git pull origin master"
 ```
 
+## Upload article
+Puts a textfile in `content/` directory like `content/yyyy-mm-dd-title.md`.
+A title of article is h1 (`#` or `=====`) and title of section is h2.
+
+
 ## Webhook
 You add a webhook(`https://example.com/plog.php/webhook?secret=your_secret_key`)
 to Github Webhooks or Bitbucket Webhooks.

@@ -16,7 +16,7 @@ Simple markdown based blog engine.
 clone this project.
 
 ```
-$ git clone https://github.com/ta2gch/plog
+$ git clone https://github.com/asciian/plog
 ```
 
 Modify your `plog.ini`
@@ -52,4 +52,4 @@ to Github Webhooks or Bitbucket Webhooks.
 MIT License (see LICENSE file in this repository)
 
 ## Copyright
-Copyright (c) 2016 TANIGUCHI Masaya All Rights Reserved.
+Copyright (c) 2016 asciian All Rights Reserved.

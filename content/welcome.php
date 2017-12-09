@@ -2,7 +2,7 @@
 /**
  * Plog - Simple markdown based blog eingine.
  *
- * Author: TANIGUCHI Masaya <ta2gch@moffice.space>
+ * Author: asciian <asciian@moffice.space>
  * Website: https://www.moffice.space/blog/plog.php
  * License: MIT (see also LICENSE file in this repository)
  */

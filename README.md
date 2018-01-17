@@ -49,7 +49,7 @@ to Github Webhooks or Bitbucket Webhooks.
 `your_secret_key` is defined in `plog.ini`.
 
 ## License
-MIT License (see LICENSE file in this repository)
+GPL v3 (see LICENSE file in this repository)
 
 ## Copyright
-Copyright (c) 2016 asciian All Rights Reserved.
+Copyright (c) 2016 TANIGUCHI Masaya All Rights Reserved.

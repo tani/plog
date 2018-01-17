@@ -1,10 +1,19 @@
 <?php
-/**
- * Plog - Simple markdown based blog eingine.
+/* 
+ * This file is part of the plog.
+ * Copyright (c) 2017 TANIGUCHI Masaya.
+ * 
+ * This program is free software: you can redistribute it and/or modify  
+ * it under the terms of the GNU General Public License as published by  
+ * the Free Software Foundation, version 3.
  *
- * Author: asciian <asciian@moffice.space>
- * Website: https://www.moffice.space/blog/plog.php
- * License: MIT (see also LICENSE file in this repository)
+ * This program is distributed in the hope that it will be useful, but 
+ * WITHOUT ANY WARRANTY; without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License 
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 require 'lib/Parsedown.php';
 $CONFIG = parse_ini_file('plog.ini', true);
@@ -47,9 +56,9 @@ class Plog
     private static function list($matches)
     {
         switch (count($matches)) {
-          case 2: $filenames = glob("content/$matches[1]-*.md"); break;
-          case 3: $filenames = glob("content/$matches[1]-$matches[2]-*.md"); break;
-          case 4: $filenames = glob("content/$matches[1]-$matches[2]-$matches[3]-*.md"); break;
+            case 2: $filenames = glob("content/$matches[1]-*.md"); break;
+            case 3: $filenames = glob("content/$matches[1]-$matches[2]-*.md"); break;
+            case 4: $filenames = glob("content/$matches[1]-$matches[2]-$matches[3]-*.md"); break;
         }
         if (count($filenames) > 0) {
             foreach ($filenames as $filename) {

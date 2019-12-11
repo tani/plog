@@ -16,7 +16,7 @@ Simple markdown based blog engine.
 clone this project.
 
 ```
-$ git clone https://github.com/asciian/plog
+$ git clone https://github.com/fgborges/plog
 ```
 
 Modify your `plog.ini`

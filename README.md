@@ -52,4 +52,4 @@ to Github Webhooks or Bitbucket Webhooks.
 GPL v3 (see LICENSE file in this repository)
 
 ## Copyright
-Copyright (c) 2019 Fernado Garcia Borges All Rights Reserved.
+Copyright (c) 2021 TANIGUCHI Masaya All Rights Reserved.
